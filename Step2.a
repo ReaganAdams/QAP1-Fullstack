@@ -1,0 +1,46 @@
+1. http
+The http module provides utilities to create HTTP servers and clients. It is essential for building web servers and handling HTTP requests and responses. 
+By using this module, you can create a server to listen on specific ports, handle incoming requests, and send responses back to clients. 
+
+
+2. fs (File System)
+The fs module allows interaction with the file system, providing methods for reading from and writing to files. 
+You can use it to perform file operations like creating, reading, updating, and deleting files and directories. 
+
+3. events
+The events module facilitates event-driven programming by providing the EventEmitter class. 
+This class allows you to create and handle custom events, making it easier to manage asynchronous operations and communication between different parts of your application. 
+
+
+4. console
+The console module provides a simple debugging tool with methods for outputting text to the terminal.
+It is useful for debugging purposes and logging information about the application's execution.
+
+5. buffer
+The buffer module deals with binary data and provides utilities for working with raw memory allocations. 
+Used for handling binary streams and performing operations on data buffers, such as reading or writing binary data from files or network streams.
+
+6. global
+The global object provides access to global variables and functions across the entire Node.js application. 
+It is the global namespace where global properties, like process, Buffer, and others, are available.
+
+7. URL
+The url module provides utilities for URL resolution and parsing. It helps in manipulating and extracting components of URLs, such as the pathname, query parameters, 
+and protocol. 
+
+
+8. stream
+The stream module provides an API for handling streaming data, including readable, writable, duplex, and transform streams. 
+Streams are essential for processing large amounts of data efficiently, such as reading files or receiving data from a network.
+
+9. process
+The process module provides information and control over the current Node.js process. It allows access to command-line arguments, environment variables, 
+and provides methods for interacting with the process's standard input/output. 
+
+10. os
+The os module provides operating system-related utility methods and properties. 
+It allows you to retrieve information about the OS, such as CPU architecture, available memory, and system uptime. 
+
+11. path
+The path module provides utilities for working with file and directory paths. It helps in manipulating paths, such as joining, resolving, and normalizing them. 
+It is essential for handling file paths in a cross-platform manner, ensuring that path operations work correctly on different operating systems.
